@@ -1,1 +1,17 @@
 write a code to convert lower case to upper case latter
+
+let upper="QWERTYUIOPASDFGHJKLZXCVBNM"
+let lower="qwertyuiopasdfghjklzxcvbnm"
+let str="name"
+let newStr="";
+for(i=0;i<str.length;i++){
+for(j=0;j<upper.length;j++){
+if(str[i]==upper[j]){
+   newStr+=lower[j];
+}else if(str[i]==lower[j]){
+   newStr+=upper[j]
+}
+
+}
+ 
+}console.log(newStr)
